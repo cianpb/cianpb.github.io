@@ -1,0 +1,195 @@
+body{
+    background-color: black !important;
+}
+
+
+
+@font-face 
+{
+font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/SuisseIntl-Bold.otf'), 
+    url('fonts/SuisseIntl-Book.otf'),
+    url('fonts/SuisseIntl-Light.otf');
+}
+
+
+p{
+    font-family: 'SuisseIntl-Light';
+    color: white;
+    font-size: 14pt;
+}
+
+h0{
+    font-family: 'SuisseIntl-Bold';
+    font-size: 10vw;
+    line-height:9vw;
+    color: white;
+    
+}
+
+h2{
+    font-family: 'SuisseIntl-Bold';
+    font-size: 16pt;
+    line-height: 20pt;
+    color: white !important;
+}
+
+h5{
+    font-family: 'SuisseIntl-Book';
+    color: white !important;
+}
+
+svg{
+    fill: white;
+    width: 80px;
+    height: auto;
+    padding-top: 10px;
+    z-index: 199;
+    mix-blend-mode: difference;
+}
+
+.navbar{
+    mix-blend-mode: difference !important;
+}
+
+.nav-link{
+    color: white !important;
+    mix-blend-mode: difference;
+    
+}
+
+button span {
+    /*overwriting*/
+    color: white;
+    font-size: 30px;
+}
+
+#header_title{
+  
+}
+
+.header_title{
+  opacity: 1;
+  -webkit-transition: opacity 1.5s ease-out;
+  -moz-transition: opacity 1.5s ease-out;
+  -ms-transition: opacity 1.5s ease-out;
+  -o-transition: opacity 1.5s ease-out;
+  transition: opacity 1.5s ease-out;
+}
+
+#work{
+    z-index: 100;
+    background-color: black !important;
+    margin-top: 15px
+}
+
+#banished-link{
+    
+}
+
+#jass-link{
+    
+}
+
+.jass_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    .jass_thumbnail:hover .img-top {
+        display:inline;
+       
+    }
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  
+    #header_title{
+    position: fixed;
+    margin-top: -550px;
+    z-index: 0;
+        
+    }
+    
+    .introvid{
+        margin-top: -70px;
+    }
+    
+   
+    .navbar-nav{
+        padding-top: 10px;
+    }
+    
+    #intro_text{
+        margin-top: -550px;
+    }
+    
+    
+    #work{
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    z-index: 100;
+    
+}
+
+.thumbnails{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+    .rationale{
+        position: fixed;
+    }
+    
+
+
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+    .thumbnails{
+        height: auto;
+        width: auto;
+        object-fit:cover;
+    }
+    
+    #work{
+        height: auto;
+        width: auto;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  
+}
