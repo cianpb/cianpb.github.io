@@ -1,24 +1,35 @@
 body{
     background-color: black !important;
+    
 }
 
 
 
 @font-face 
 {
-font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light';
+font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light', 'SuisseIntl-Regular';
 font-style: normal !important;
 font-weight: 100;
 src: url('fonts/SuisseIntl-Bold.otf'), 
     url('fonts/SuisseIntl-Book.otf'),
-    url('fonts/SuisseIntl-Light.otf');
+    url('fonts/SuisseIntl-Light.otf'),
+    url('fonts/SuisseIntl-Regular.otf');
 }
 
+a{
+color: white !important;    
+}
+
+a:hover{
+    text-decoration: none !important;
+}
 
 p{
-    font-family: 'SuisseIntl-Light';
-    color: white;
-    font-size: 14pt;
+    font-family: 'SuisseIntl-Light'!important;
+    color: white !important;
+    font-size: 12pt !important;
+    line-height: 15pt !important;
+    
 }
 
 h0{
@@ -29,17 +40,90 @@ h0{
     
 }
 
+h1{
+    font-family: 'SuisseIntl-bold'!important;
+    font-size: 80pt !important;
+    line-height: 70pt !important;
+    color: white !important;
+}
+
 h2{
-    font-family: 'SuisseIntl-Bold';
-    font-size: 16pt;
-    line-height: 20pt;
+    font-family: 'SuisseIntl-Regular'!important;
+    font-size: 20pt!important;
+    line-height: 25pt!important;
     color: white !important;
 }
 
 h5{
-    font-family: 'SuisseIntl-Book';
+    font-family: 'SuisseIntl-Regular'!important;
+    font-size: 12pt !important;
+    line-height: 15pt !important;
     color: white !important;
 }
+
+
+
+#project_info{
+    padding-top: 50px;
+    
+}
+
+#project_title{
+    margin-bottom: 0pt !important;
+}
+
+#project_kind{
+  margin-bottom: 25pt !important;  
+}
+
+#project_rationale{
+    padding-bottom: 50px
+}
+
+#vimeo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-footer{
+   padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#get_in_touch{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.fa-envelope{
+    color: white;
+    font-size: 30px;
+    padding: 10px; 
+}
+
+
+.fa-instagram{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-mobile-alt{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+#more_projects{
+   padding-top: 10px; 
+}
+
+
+
+
 
 svg{
     fill: white;
@@ -47,17 +131,26 @@ svg{
     height: auto;
     padding-top: 10px;
     z-index: 199;
-    mix-blend-mode: difference;
+    
+}
+
+.roughwork_logo{
+    mix-blend-mode:difference;
 }
 
 .navbar{
     mix-blend-mode: difference !important;
+    
 }
 
+
 .nav-link{
+    font-family: 'SuisseIntl-Regular';
+    font-size: 12pt !important;
+    line-height: 15pt !important;
     color: white !important;
     mix-blend-mode: difference;
-    
+    filter: drop-shadow(0 0 50px #333);
 }
 
 button span {
@@ -93,11 +186,27 @@ button span {
     
 }
 
+.banished_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .banished_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
 .jass_thumbnail .img-top {
         display: none;
         position:absolute;
         top: 0;
         left:0;
+    bottom: 0;
         padding: 0 15px;
         z-index: 100;
     }
@@ -106,6 +215,41 @@ button span {
         position:absolute;
        
     }
+
+.showus_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .showus_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.tanger_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .tanger_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.project{
+    margin-top: -70px; 
+}
+
 /* 
 # Responsive breakpoints
 # https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
@@ -149,7 +293,7 @@ Extra large   ≥1200px   .col-xl-
         padding-top: 10px;
     }
     
-    #intro_text{
+    #intro_text, #about_us{
         margin-top: -550px;
     }
     
