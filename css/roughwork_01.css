@@ -10,10 +10,10 @@ body{
 font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light', 'SuisseIntl-Regular';
 font-style: normal !important;
 font-weight: 100;
-src: url('../fonts/SuisseIntl-Bold.woff'), 
-    url('../fonts/SuisseIntl-Book.woff'),
-    url('../fonts/SuisseIntl-Light.woff'),
-    url('../fonts/SuisseIntl-Regular.woff');
+src: url('./fonts/SuisseIntl-Bold.woff'), 
+    url('./fonts/SuisseIntl-Book.woff'),
+    url('./fonts/SuisseIntl-Light.woff'),
+    url('./fonts/SuisseIntl-Regular.woff');
 }
 
 a{
