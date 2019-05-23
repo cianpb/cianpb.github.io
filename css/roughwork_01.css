@@ -1,20 +1,17 @@
+@font-face {
+    font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light', 'SuisseIntl-Regular';
+    font-style: normal !important;
+    font-weight: 100;
+    src: url('fonts/SuisseIntl-Bold.otf') format('opentype'), 
+        url('fonts/SuisseIntl-Book.otf') format('opentype'),
+        url('fonts/SuisseIntl-Light.otf') format('opentype'),
+        url('fonts/SuisseIntl-Regular.otf') format('opentype');
+}
+
 body{
     background-color: black !important;
-    
-}
+    }
 
-
-
-@font-face 
-{
-font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light', 'SuisseIntl-Regular';
-font-style: normal !important;
-font-weight: 100;
-src: url('fonts/SuisseIntl-Bold.otf'), 
-    url('fonts/SuisseIntl-Book.otf'),
-    url('fonts/SuisseIntl-Light.otf'),
-    url('fonts/SuisseIntl-Regular.otf');
-}
 
 a{
 color: white !important;    
