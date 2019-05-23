@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'SuisseIntl-Bold', 'SuisseIntl-Book', 'SuisseIntl-Light', 'SuisseIntl-Regular';
+    font-style: normal !important;
+    font-weight: 100;
+    src: url('fonts/SuisseIntl-Bold.otf') format('opentype'), 
+        url('fonts/SuisseIntl-Book.otf') format('opentype'),
+        url('fonts/SuisseIntl-Light.otf') format('opentype'),
+        url('fonts/SuisseIntl-Regular.otf') format('opentype');
+}
+
+body{
+    background-color: black !important;
+    }
+
+
+a{
+color: white !important;    
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+p{
+    font-family: 'SuisseIntl-Light'!important;
+    color: white !important;
+    font-size: 12pt !important;
+    line-height: 15pt !important;
+    
+}
+
+h0{
+    font-family: 'SuisseIntl-Bold';
+    font-size: 10vw;
+    line-height:9vw;
+    color: white;
+    
+}
+
+h1{
+    font-family: 'SuisseIntl-bold'!important;
+    font-size: 80pt !important;
+    line-height: 70pt !important;
+    color: white !important;
+}
+
+h2{
+    font-family: 'SuisseIntl-Regular'!important;
+    font-size: 20pt!important;
+    line-height: 25pt!important;
+    color: white !important;
+}
+
+h5{
+    font-family: 'SuisseIntl-Regular'!important;
+    font-size: 12pt !important;
+    line-height: 15pt !important;
+    color: white !important;
+}
+
+
+
+#project_info{
+    padding-top: 50px;
+    
+}
+
+#project_title{
+    margin-bottom: 0pt !important;
+}
+
+#project_kind{
+  margin-bottom: 25pt !important;  
+}
+
+#project_rationale{
+    padding-bottom: 50px
+}
+
+#vimeo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-footer{
+   padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#get_in_touch{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.fa-envelope{
+    color: white;
+    font-size: 30px;
+    padding: 10px; 
+}
+
+
+.fa-instagram{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-mobile-alt{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+#more_projects{
+   padding-top: 10px; 
+}
+
+
+
+
+
+svg{
+    fill: white;
+    width: 80px;
+    height: auto;
+    padding-top: 10px;
+    z-index: 199;
+    
+}
+
+.roughwork_logo{
+    mix-blend-mode:difference;
+}
+
+.navbar{
+    mix-blend-mode: difference !important;
+    
+}
+
+
+.nav-link{
+    font-family: 'SuisseIntl-Regular';
+    font-size: 12pt !important;
+    line-height: 15pt !important;
+    color: white !important;
+    mix-blend-mode: difference;
+    filter: drop-shadow(0 0 50px #333);
+}
+
+button span {
+    /*overwriting*/
+    color: white;
+    font-size: 30px;
+}
+
+#header_title{
+  
+}
+
+.header_title{
+  opacity: 1;
+  -webkit-transition: opacity 1.5s ease-out;
+  -moz-transition: opacity 1.5s ease-out;
+  -ms-transition: opacity 1.5s ease-out;
+  -o-transition: opacity 1.5s ease-out;
+  transition: opacity 1.5s ease-out;
+}
+
+#work{
+    z-index: 100;
+    background-color: black !important;
+    margin-top: 15px
+}
+
+#banished-link{
+    
+}
+
+#jass-link{
+    
+}
+
+.banished_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .banished_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.jass_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .jass_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.showus_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .showus_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.tanger_thumbnail .img-top {
+        display: none;
+        position:absolute;
+        top: 0;
+        left:0;
+    bottom: 0;
+        padding: 0 15px;
+        z-index: 100;
+    }
+    .tanger_thumbnail:hover .img-top {
+        display:inline;
+        position:absolute;
+       
+    }
+
+.project{
+    margin-top: -70px; 
+}
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  
+    #header_title{
+    position: fixed;
+    margin-top: -550px;
+    z-index: 0;
+        
+    }
+    
+    .introvid{
+        margin-top: -70px;
+    }
+    
+   
+    .navbar-nav{
+        padding-top: 10px;
+    }
+    
+    #intro_text, #about_us{
+        margin-top: -550px;
+    }
+    
+    
+    #work{
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    z-index: 100;
+    
+}
+
+.thumbnails{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+    .rationale{
+        position: fixed;
+    }
+    
+
+
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+    .thumbnails{
+        height: auto;
+        width: auto;
+        object-fit:cover;
+    }
+    
+    #work{
+        height: auto;
+        width: auto;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  
+}
