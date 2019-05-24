@@ -12,22 +12,22 @@
 
 
 @font-face {
-    font-family: 'Light'!important;
+    font-family: 'SuisseIntl-Light'!important;
     src: url("../fonts/SuisseIntl-Light.otf") format("opentype") !important;
 }
 
 @font-face {
-    font-family: 'Book'!important;
+    font-family: 'SuisseIntl-Book'!important;
     src: url("../fonts/SuisseIntl-Book.otf") format("opentype") !important;
 }
 
 @font-face {
-    font-family: 'Regular' !important;
+    font-family: 'SuisseIntl-Regular' !important;
     src: url("../fonts/SuisseIntl-Regular.otf") format("opentype") !important;
 }
 
 @font-face {
-    font-family: 'Bold'!important;
+    font-family: 'SuisseIntl-Bold'!important;
     src: url("../fonts/SuisseIntl-Bold.otf") format("opentype") !important;
 }
 
@@ -46,7 +46,7 @@ a:hover{
 }
 
 p{
-    font-family: 'Light'!important;
+    font-family: 'SuisseIntl-Light'!important;
     color: white !important;
     font-size: 12pt !important;
     line-height: 15pt !important;
@@ -54,7 +54,7 @@ p{
 }
 
 h0{
-    font-family: 'Bold';
+    font-family: 'SuisseIntl-Bold';
     font-size: 10vw;
     line-height:9vw;
     color: white;
@@ -62,21 +62,21 @@ h0{
 }
 
 h1{
-    font-family: 'Bold'!important;
+    font-family: 'SuisseIntl-Bold'!important;
     font-size: 80pt !important;
     line-height: 70pt !important;
     color: white !important;
 }
 
 h2{
-    font-family: 'Regular'!important;
+    font-family: 'SuisseIntl-Regular'!important;
     font-size: 20pt!important;
     line-height: 25pt!important;
     color: white !important;
 }
 
 h5{
-    font-family: 'Regular'!important;
+    font-family: 'SuisseIntl-Regular'!important;
     font-size: 12pt !important;
     line-height: 15pt !important;
     color: white !important;
