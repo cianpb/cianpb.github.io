@@ -11,6 +11,7 @@
 */
 
 
+/*
 @font-face {
     font-family: 'SuisseIntl-Light'!important;
     src: url("../fonts/SuisseIntl-Light.otf") format("opentype") !important;
@@ -30,7 +31,43 @@
     font-family: 'SuisseIntl-Bold'!important;
     src: url("../fonts/SuisseIntl-Bold.otf") format("opentype") !important;
 }
+*/
 
+@font-face {
+    font-family: 'suisse_intllight';
+    src: url('../fonts/suisseintl-light-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'suisse_intlbook';
+    src: url('../fonts/suisseintl-book-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'suisse_intlregular';
+    src: url('../fonts/suisseintl-regular-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'suisse_intlbold';
+    src: url('../fonts/suisseintl-bold-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body{
     background-color: black !important;
@@ -46,7 +83,7 @@ a:hover{
 }
 
 p{
-    font-family: 'SuisseIntl-Light'!important;
+    font-family: 'suisse_intllight'!important;
     color: white !important;
     font-size: 12pt !important;
     line-height: 15pt !important;
@@ -54,7 +91,7 @@ p{
 }
 
 h0{
-    font-family: 'SuisseIntl-Bold';
+    font-family: 'suisse_intlbold';
     font-size: 10vw;
     line-height:9vw;
     color: white;
@@ -62,21 +99,21 @@ h0{
 }
 
 h1{
-    font-family: 'SuisseIntl-Bold'!important;
+    font-family: 'suisse_intlbold'!important;
     font-size: 80pt !important;
     line-height: 70pt !important;
     color: white !important;
 }
 
 h2{
-    font-family: 'SuisseIntl-Regular'!important;
+    font-family: 'suisse_intlregular'!important;
     font-size: 20pt!important;
     line-height: 25pt!important;
     color: white !important;
 }
 
 h5{
-    font-family: 'SuisseIntl-Regular'!important;
+    font-family: 'suisse_intlregular'!important;
     font-size: 12pt !important;
     line-height: 15pt !important;
     color: white !important;
@@ -166,7 +203,7 @@ svg{
 
 
 .nav-link{
-    font-family: 'SuisseIntl-Regular';
+    font-family: 'suisse_intlregular';
     font-size: 12pt !important;
     line-height: 15pt !important;
     color: white !important;
