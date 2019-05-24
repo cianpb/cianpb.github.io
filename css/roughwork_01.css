@@ -46,7 +46,7 @@ a:hover{
 }
 
 p{
-    font-family: 'SuisseIntl-Light'!important;
+    font-family: 'Light'!important;
     color: white !important;
     font-size: 12pt !important;
     line-height: 15pt !important;
@@ -54,7 +54,7 @@ p{
 }
 
 h0{
-    font-family: 'SuisseIntl-Bold';
+    font-family: 'Bold';
     font-size: 10vw;
     line-height:9vw;
     color: white;
@@ -62,21 +62,21 @@ h0{
 }
 
 h1{
-    font-family: 'SuisseIntl-bold'!important;
+    font-family: 'Bold'!important;
     font-size: 80pt !important;
     line-height: 70pt !important;
     color: white !important;
 }
 
 h2{
-    font-family: 'SuisseIntl-Regular'!important;
+    font-family: 'Regular'!important;
     font-size: 20pt!important;
     line-height: 25pt!important;
     color: white !important;
 }
 
 h5{
-    font-family: 'SuisseIntl-Regular'!important;
+    font-family: 'Regular'!important;
     font-size: 12pt !important;
     line-height: 15pt !important;
     color: white !important;
