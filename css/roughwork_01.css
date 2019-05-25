@@ -317,20 +317,7 @@ Extra large   ≥1200px   .col-xl-
 
 @media (max-width: 768px) {
     
-    #nav{
-        background-color: black;
-    }
     
-    .nav-item{
-        font-size: 16px !important;
-        text-align: center;
-    }
-    
-    .nav-link{
-        font-family: 'suisse_intlregular';
-        font-size: 20pt !important;
-        line-height: 25pt !important;
-    }
     
     
     #work{
@@ -359,6 +346,7 @@ Extra large   ≥1200px   .col-xl-
     color: white !important;
 }
 
+    
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
@@ -408,6 +396,29 @@ Extra large   ≥1200px   .col-xl-
     
 
 
+}
+
+/* Apply these rules if the screen width is LESS than 992px */
+
+@media (max-width: 992px){
+    #nav{
+        background-color: black;
+    }
+    
+    .nav-item{
+        font-size: 16px !important;
+        text-align: center;
+    }
+    
+    .nav-link{
+        font-family: 'suisse_intlregular';
+        font-size: 20pt !important;
+        line-height: 25pt !important;
+    }
+    
+    .project{
+        padding-top: 65px;
+    }
 }
 
 /* Apply these rules if the screen width is GREATER than 992px */
