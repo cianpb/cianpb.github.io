@@ -329,6 +329,13 @@ Extra large   ≥1200px   .col-xl-
     .thumbnail_title_mobile{
         padding-top: 20px;
     }
+    
+    h1{
+    font-family: 'suisse_intlbold'!important;
+    font-size: 40pt !important;
+    line-height: 35pt !important;
+    color: white !important;
+}
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
