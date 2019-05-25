@@ -113,6 +113,21 @@ h5{
     padding-bottom: 50px
 }
 
+.banished_rationale::selection{
+    
+    background-color: #EF5322;
+}
+
+.jass_rationale::selection{
+    
+    background-color: #EE272C;
+}
+
+.hightech_rationale::selection{
+    
+    background-color: deepskyblue;
+}
+
 #vimeo{
     padding-top: 100px;
     padding-bottom: 100px;
