@@ -335,7 +335,15 @@ Extra large   ≥1200px   .col-xl-
     font-size: 40pt !important;
     line-height: 35pt !important;
     color: white !important;
+    }
+    
+    h2{
+    font-family: 'suisse_intlregular'!important;
+    font-size: 16pt!important;
+    line-height: 20pt!important;
+    color: white !important;
 }
+
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
