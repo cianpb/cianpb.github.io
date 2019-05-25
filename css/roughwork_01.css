@@ -26,6 +26,16 @@
 }
 
 @font-face {
+    font-family: 'suisse_intlmedium';
+    src: url('../fonts/suisseintl-medium-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
     font-family: 'suisse_intlbold';
     src: url('../fonts/suisseintl-bold-webfont.woff2') format('woff2'),
          url('../fonts/suisseintl-bold-webfont.woff') format('woff');
@@ -288,7 +298,7 @@ Extra large   ≥1200px   .col-xl-
   
 }
 
-/* Apply these rules if the screen width is GREATER than 768px */
+/* Apply these rules if the screen width is LESS than 768px */
 
 @media (max-width: 768px) {
     
@@ -313,14 +323,15 @@ Extra large   ≥1200px   .col-xl-
     }
     
     .thumbnail_mobile{
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
     
     .thumbnail_title_mobile{
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
+
+/* Apply these rules if the screen width is GREATER than 768px */
 
 @media (min-width: 768px) {
   
