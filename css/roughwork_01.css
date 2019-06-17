@@ -48,6 +48,10 @@ body{
     background-color: black !important;
     }
 
+#comingsoon{
+    align-content: center;
+    padding-top: 40vh;
+}
 
 a{
 color: white !important;    
@@ -69,7 +73,7 @@ h0{
     font-family: 'suisse_intlbold';
     font-size: 10vw;
     line-height:9vw;
-    color: white;
+    color: white !important;
     
 }
 
