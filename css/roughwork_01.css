@@ -341,8 +341,15 @@ button span {
 }
 
 #project_image{
+    max-width: 100% !important;
+    height: auto !important;
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+.img-fluid{
+    max-width: 100% !important;
+    height: auto !important;
 }
 
 .project_image_description{
