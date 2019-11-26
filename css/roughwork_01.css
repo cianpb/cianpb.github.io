@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: 'suisse_intllight_italic';
+    src: url('../fonts/suisseintl-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'suisse_intlbook';
     src: url('../fonts/suisseintl-book-webfont.woff2') format('woff2'),
          url('../fonts/suisseintl-book-webfont.woff') format('woff');
@@ -26,6 +35,15 @@
 }
 
 @font-face {
+    font-family: 'suisse_intlregular_italic';
+    src: url('../fonts/suisseintl-regularitalic-webfont.woff2') format('woff2'),
+         url('../fonts/suisseintl-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'suisse_intlmedium';
     src: url('../fonts/suisseintl-medium-webfont.woff2') format('woff2'),
          url('../fonts/suisseintl-medium-webfont.woff') format('woff');
@@ -33,6 +51,8 @@
     font-style: normal;
 
 }
+
+
 
 
 @font-face {
@@ -45,12 +65,12 @@
 }
 
 body{
-    background-color: black !important;
+    background-color: #161616 !important;
     }
 
 #comingsoon{
     align-content: center;
-    padding-top: 300px;
+    padding-top: 40vh;
 }
 
 a{
@@ -90,6 +110,26 @@ h2{
     line-height: 25pt!important;
     color: white !important;
 }
+
+h3{
+    font-family: 'suisse_intllight_italic'!important;
+    font-size: 20pt!important;
+    line-height: 25pt!important;
+    color: white !important;
+}
+
+h3:before {
+  content: '“';
+  position: absolute;
+  margin-left: -1em;
+  width: 1em;
+  text-align: right;
+}
+
+h3:after {
+    content: '”';
+}
+
 
 h5{
     font-family: 'suisse_intlregular'!important;
@@ -132,10 +172,12 @@ h5{
     background-color: deepskyblue;
 }
 
-#vimeo{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.fewr_rationale::selection{
+    background-color:#2BDE73;
+    
+        
 }
+
 
 .page-footer{
    padding-right: 20px;
@@ -203,8 +245,12 @@ button span {
     font-size: 30px;
 }
 
-#header_title{
-  
+#topvid{
+    
+}
+
+#topvid_mobile{
+    
 }
 
 .header_title{
@@ -218,7 +264,7 @@ button span {
 
 #work{
     z-index: 100;
-    background-color: black !important;
+    background-color: #161616 !important;
     margin-top: 15px
 }
 
@@ -294,6 +340,23 @@ button span {
     margin-top: -70px; 
 }
 
+#project_image{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.project_image_description{
+        padding-top: 10px;
+    /*padding-left: 15px;*/
+    margin-bottom: -25px;
+    }
+
+.vimeo_fullwidth{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
 /* 
 # Responsive breakpoints
 # https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
@@ -308,18 +371,48 @@ Extra large   ≥1200px   .col-xl-
 /* Apply these rules if the screen width is LESS than 576px */
 
 @media(max-width:576px){
+    #topvid{
+    display: none !important;
+    }
     
+    
+    
+    #header_title{
+    position: fixed;
+    margin-top: -450px;
+/*    margin-left: 100px;*/
+    z-index: 0;
+    }
+    
+    .roughwork_logo_top{
+        width: 250px;
+    }
 }
 
 /* Apply these rules if the screen width is GREATER than 576px */
 
 @media (min-width: 576px) {
-  
+  #topvid_mobile{
+    display: none !important;
+    }
+    
+    #header_title{
+    position: fixed;
+    margin-top: -550px;
+    z-index: 0;
+        
+    }
+    
+    .roughwork_logo_top{
+        width: 500px;
+    }
 }
 
 /* Apply these rules if the screen width is LESS than 768px */
 
 @media (max-width: 768px) {
+    
+    
     
     
     
@@ -349,24 +442,48 @@ Extra large   ≥1200px   .col-xl-
     line-height: 20pt!important;
     color: white !important;
 }
+    
+    h3{
+    font-family: 'suisse_intllight_italic'!important;
+    font-size: 16pt!important;
+    line-height: 20pt!important;
+    color: white !important;
+}
 
     
+    
+    #project_image{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .project_image_description{
+        padding-left: 15px;
+        margin-top: -5px;
+        margin-bottom: 0px !important;
+    }
+    
+    .page-footer{
+        float: right;
+    }
+    
+    .img-fluid{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    }
+
 }
 
 /* Apply these rules if the screen width is GREATER than 768px */
 
 @media (min-width: 768px) {
   
-    #header_title{
-    position: fixed;
-    margin-top: -550px;
-    z-index: 0;
-        
-    }
+    
     
     .introvid{
         margin-top: -70px;
     }
+    
     
    
     .navbar-nav{
@@ -406,7 +523,7 @@ Extra large   ≥1200px   .col-xl-
 
 @media (max-width: 992px){
     #nav{
-        background-color: black;
+        background-color: #161616;
     }
     
     .nav-item{
