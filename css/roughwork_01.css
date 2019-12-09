@@ -68,10 +68,7 @@ body{
     background-color: #161616 !important;
     }
 
-#comingsoon{
-    align-content: center;
-    padding-top: 40vh;
-}
+
 
 a{
 color: white !important;    
@@ -178,11 +175,36 @@ h5{
         
 }
 
+#about_desktop{
+    
+}
+
+#about_info{
+    padding-top: 165px;
+    padding-bottom: 175px;
+}
+
+#contact_desktop{
+    
+    padding-top: 100px;
+    
+}
+
+#contact_info{
+    
+}
+
 
 .page-footer{
    padding-right: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+
+#fixed_footer{
+   position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 #get_in_touch{
@@ -268,13 +290,9 @@ button span {
     margin-top: 15px
 }
 
-#banished-link{
-    
-}
-
-#jass-link{
-    
-}
+#work_info{
+        padding-top: 100px;
+    }
 
 .banished_thumbnail .img-top {
         display: none;
@@ -306,7 +324,7 @@ button span {
        
     }
 
-.showus_thumbnail .img-top {
+.fewr_thumbnail .img-top {
         display: none;
         position:absolute;
         top: 0;
@@ -315,13 +333,13 @@ button span {
         padding: 0 15px;
         z-index: 100;
     }
-    .showus_thumbnail:hover .img-top {
+    .fewr_thumbnail:hover .img-top {
         display:inline;
         position:absolute;
        
     }
 
-.tanger_thumbnail .img-top {
+.hightech_thumbnail .img-top {
         display: none;
         position:absolute;
         top: 0;
@@ -330,11 +348,16 @@ button span {
         padding: 0 15px;
         z-index: 100;
     }
-    .tanger_thumbnail:hover .img-top {
+    .hightech_thumbnail:hover .img-top {
         display:inline;
         position:absolute;
        
     }
+
+.thumbnail_title{
+    padding-top: 10px;
+    margin-right: 0px !important;
+}
 
 .project{
     margin-top: -70px; 
@@ -343,8 +366,8 @@ button span {
 #project_image{
     max-width: 100% !important;
     height: auto !important;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     margin-left: 0px !important;
     margin-right: 0px !important;
     padding-left: 0px !important;
@@ -358,9 +381,13 @@ button span {
 }
 
 .project_image_description{
-        padding-top: 10px;
-    /*padding-left: 15px;*/
-    margin-bottom: -25px;
+    
+    margin-bottom: 10px;
+    }
+
+.alt_project_image_description{
+    padding-top: 10px;
+    margin-bottom: 10px;
     }
 
 .vimeo_fullwidth{
@@ -399,6 +426,17 @@ Extra large   ≥1200px   .col-xl-
     .roughwork_logo_top{
         width: 250px;
     }
+    
+    #work_info{
+        padding-top: 100px;
+    }
+    
+    #about_info{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+    
 }
 
 /* Apply these rules if the screen width is GREATER than 576px */
@@ -418,6 +456,8 @@ Extra large   ≥1200px   .col-xl-
     .roughwork_logo_top{
         width: 500px;
     }
+    
+    
 }
 
 /* Apply these rules if the screen width is LESS than 768px */
@@ -426,19 +466,36 @@ Extra large   ≥1200px   .col-xl-
     
     
     
+    .introvid{
+        display: none !important;
+    }
     
+    #intro_text{
+        margin-top:150px;
+        margin-bottom: 100px;
+    }
     
     
     #work{
         display: none !important;
     }
     
+    #work_desktop_nav{
+        display: none !important;
+    }
+    
+    #work_mobile{
+        margin-top: 50px;
+    }
+
+    
     .thumbnail_mobile{
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+        padding-top: 0px;
     }
     
     .thumbnail_title_mobile{
-        padding-top: 20px;
+        padding-top: 5px;
     }
     
     h1{
@@ -466,14 +523,19 @@ Extra large   ≥1200px   .col-xl-
     
     #project_image{
         padding-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
 
     }
     
     .project_image_description{
         padding-left: 15px;
-        margin-top: -5px;
+/*        margin-top: -5px;*/
         margin-bottom: 0px !important;
+    }
+    
+    .alt_project_image_description{
+    padding-top: 0px;
+    padding-bottom: 10px !important;
     }
     
     .page-footer{
@@ -507,8 +569,14 @@ Extra large   ≥1200px   .col-xl-
         margin-top: -550px;
     }
     
+    
+    
     #work_mobile{
         display: none !important;
+    }
+    
+    #work_mobile_nav{
+        display:none !important;
     }
     
     #work{
@@ -518,6 +586,10 @@ Extra large   ≥1200px   .col-xl-
     z-index: 100;
     
 }
+    
+    
+    
+    
 
 .thumbnails{
     padding-top: 15px;
